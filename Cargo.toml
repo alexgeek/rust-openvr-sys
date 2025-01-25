@@ -36,4 +36,3 @@ path = "lib.rs"
 
 [features]
 default = []
-buildtime_bindgen = ["bindgen"]
