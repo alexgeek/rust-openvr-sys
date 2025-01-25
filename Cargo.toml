@@ -1,6 +1,7 @@
 [package]
 name = "openvr_sys"
 version = "2.0.3"
+edition = "2021"
 authors = [
     "Colin Sherratt",
     "Erick Tryzelaar",
@@ -28,7 +29,7 @@ maintenance = { status = "passively-maintained" }
 
 [build-dependencies]
 cmake = "0.1.52"
-bindgen = { version = "0.71.1", optional = true }
+bindgen = "0.71.1"
 
 [lib]
 name = "openvr_sys"

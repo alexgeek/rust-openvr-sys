@@ -1,4 +1,3 @@
-#[cfg(feature = "buildtime_bindgen")]
 extern crate bindgen;
 extern crate cmake;
 
