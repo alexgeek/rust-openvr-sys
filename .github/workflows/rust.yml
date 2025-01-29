@@ -16,7 +16,7 @@ jobs:
     strategy:
       matrix:
         os: [windows-latest, ubuntu-latest, macOS-latest]
-        rustc-version: [1.80.0, 1.81.0, 1.82.0, 1.83.0, 1.84.0]
+        rustc-version: [1.82.0, 1.83.0, 1.84.0]
       fail-fast: false
 
     steps:
